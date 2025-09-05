@@ -1,0 +1,37 @@
+@use '../helpers' as *;
+
+.personal-card{
+    --imageSize: #{rem(80)};
+
+    display: flex;
+    align-items: center;
+    column-gap: fluid(16,8);
+
+    @include laptope{
+        --imageSize: #{rem(60)};
+    }
+
+    &__images{
+        width: var(--imageSize);
+        border-radius: 50%;
+        background-color: var(--color-dark-15);
+    }
+
+    &__body{
+        display: grid;
+
+        @include laptope-above{
+            row-gap: rem(2);
+        }
+    }
+
+    &__name{
+        font-size: rem(20);
+        color: var(--color-light);
+        font-weight: 600;
+
+        @include laptope{
+            font-size: rem(18);
+        }
+    }
+}
