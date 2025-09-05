@@ -21,4 +21,8 @@
         grid-template-columns: repeat(auto-fit,minmax(rem(358), 1fr));
         gap: rem(30);
     }
+
+    &__item{
+        max-width: rem(340);
+    }
 }
