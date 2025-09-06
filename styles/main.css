@@ -424,7 +424,7 @@ button[arial-label]::before {
   translate: 0 -50%;
   content: "";
   right: 0;
-  background: url("./icons/arrow-top-right_black.svg") center no-repeat var(--color-accent);
+  background: url("../icons/arrow-top-right_black.svg") center no-repeat var(--color-accent);
   border-radius: 50%;
 }
 
