@@ -495,7 +495,7 @@ button[arial-label]::before {
   }
 }
 .icon--yellow-arrow::after {
-  background-image: url(../icons/arrow-top-right_yellow.svg);
+  background-image: url(../../icons/arrow-top-right_yellow.svg);
 }
 .icon--yellow-eye::after {
   background-image: url(../icons/eye_yellow.svg);
