@@ -59,7 +59,7 @@
         grid-area: resources-preview;
         padding-left: rem(80);
         padding-bottom: rem(80);
-        background: url(./images/resources-preview/Container__.png) 0 0/cover no-repeat;
+        background: url(./../images/resources-preview/Container__.png) 0 0/cover no-repeat;
 
         @include laptope{
             padding-left: rem(50);
