@@ -923,7 +923,7 @@ button[arial-label]::before {
   grid-area: resources-preview;
   padding-left: 5rem;
   padding-bottom: 5rem;
-  background: url(../../images/resources-preview/Container__.png) 0 0/cover no-repeat;
+  background: url(../images/resources-preview/Container__.png) 0 0/cover no-repeat;
 }
 @media (width <= 90.06125rem) {
   .hero__resources-preview {
@@ -941,7 +941,7 @@ button[arial-label]::before {
     width: 100vw;
     margin-left: calc(var(--container-padding-x) * -1);
     padding: 6.25rem 2.5rem 2.5rem;
-    background-image: url(../../images/resources-preview/Container_tablet.png);
+    background-image: url(../images/resources-preview/Container_tablet.png);
     background-size: contain;
   }
 }
@@ -2242,7 +2242,7 @@ button[arial-label]::before {
   min-height: clamp(17.5625rem, 12.512254902rem + 20.7189542484vw, 37.375rem);
   padding-block: clamp(1.0625rem, 0.2977941176rem + 3.137254902vw, 4.0625rem);
   text-align: center;
-  background: linear-gradient(180deg, rgba(20, 20, 20, 0) 0%, rgba(20, 20, 20, 0.88) 75.52%, #141414 100%), url(../../images/blog-details/bacg-1.jpg) center/cover no-repeat;
+  background: linear-gradient(180deg, rgba(20, 20, 20, 0) 0%, rgba(20, 20, 20, 0.88) 75.52%, #141414 100%), url(../images/blog-details/bacg-1.jpg) center/cover no-repeat;
 }
 .blog-details__title {
   font-size: clamp(1.75rem, 1.1764705882rem + 2.3529411765vw, 4rem);
