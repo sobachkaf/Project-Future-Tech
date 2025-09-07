@@ -199,6 +199,10 @@ svg * {
     scroll-behavior: auto !important;
   }
 }
+body {
+  overflow-x: hidden;
+}
+
 html.is-lock {
   overflow: hidden;
 }
@@ -2546,7 +2550,7 @@ button[arial-label]::before {
 .select__button::after {
   --size: 1.5rem;
   content: "";
-  background: url(../../icons/arrow_white_down.svg) center/contain no-repeat;
+  background: url(../icons/arrow_white_down.svg) center/contain no-repeat;
   transition-duration: var(--transition-duration);
   width: var(--size);
   height: var(--size);
